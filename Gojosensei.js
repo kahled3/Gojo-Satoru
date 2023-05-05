@@ -1853,7 +1853,7 @@ break
                     GojoMdNx.sendText(m.chat, '「 الموجودين الأن 」◣\n\n' + online.map(v => '👤 @' + v.replace(/@.+/, '')).join`\n`, m, { mentions: online })
              }
              break
-            case 'ملصق': case 's': case 'ستيكر': case 'س': {
+            case 'متتا4hلصق': case 'k766s': case 'ستي76كر': case 'س': {
             if (!quoted) return replay(`Reply Video/Image With Caption ${prefix + command}`)
             reply(mess.wait)
                     if (/image/.test(mime)) {
@@ -1870,7 +1870,7 @@ break
                 }
             }
 break
-case 'زرف': case 'سرقه': case 'سرقة': {
+case 'hjdhd6666': case 'jdj7666hh': case 'hdh766yug': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (!args.join(" ")) return reply(`مثال :\nswm ${global.author}|${global.packname}`)
@@ -1933,7 +1933,7 @@ break
 		}
 	    }
 	    break
-            case 'لصورة': case '1اعلا': {
+            case 'لصوfff655رة': case '1اعلا': {
                 if (!quoted) return reply(`Reply Image`)
                 if (!/webp/.test(mime)) reply(`منشن على ستيكر واكتب  *${prefix + command}*`)
                 reply(mess.wait)
@@ -1948,7 +1948,7 @@ break
                 })
             }
             break
-	        case 'الى فيديو': case 'لفيديو': {
+	        case 'الى hhu5': case 'hhg55لفيديgو': {
                 if (!quoted) reply(`Reply Image`)
                 if (!/webp/.test(mime)) return replay(`Reply Sticker With Caption *${prefix + command}*`)
                 reply(mess.wait)
@@ -2086,7 +2086,7 @@ break
         })
         }
         break
-	    case 'play': case 'فيديو': case 'ytplay': {
+	    case 'play': case 'فيدggjيو': case 'ytplay': {
                 if (!text) return reply(`Example : ${prefix + command} غوجو ساتورو`)
                 let yts = require("yt-search")
                 let search = await yts(text)
