@@ -1,28 +1,7 @@
 {
-  "name": "______",
-  "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/nexusNw/Gojo-Satoru",
-  "logo": "https://images.app.goo.gl/edsMY9Y8AaadAcJL9",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-            "url": "https://github.com/yespark/heroku-imagemagick-buildpack"
-        },
-    {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-    }
-  ],
-   "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
-    }
+  "name": "dylux-fg",
+  "description": "Customizable WhatsApp Bot",
+  "repository": "https://github.com/FG98F/dylux-fg",
+  "logo": "https://i.ibb.co/dG6rm49/fg-logo.png",
+  "keywords": ["bot", "whatsapp", "whatsapp-bot", "rpg", "dylux-bot-md", "dylux-bot"]
 }
-
